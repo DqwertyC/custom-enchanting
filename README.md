@@ -1,5 +1,5 @@
-# datapacks
-A collection of my Minecraft datapacks.
+# Custom Enchanting
+A collection of my custom Minecraft enchantments.
 Each folder is it's own separate pack and can be placed in the "datapacks" folder of your world save.
 
 **custom_enchanting** 
