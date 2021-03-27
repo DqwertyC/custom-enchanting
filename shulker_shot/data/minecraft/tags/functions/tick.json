@@ -1,0 +1,6 @@
+{
+"values": [
+    "ce_shulker_shot:on_tick",
+	"shulker_shot:on_tick"
+]
+}

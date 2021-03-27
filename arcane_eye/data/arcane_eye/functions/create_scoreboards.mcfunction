@@ -1,0 +1,1 @@
+scoreboard objectives add arcane_sneak minecraft.custom:minecraft.sneak_time
