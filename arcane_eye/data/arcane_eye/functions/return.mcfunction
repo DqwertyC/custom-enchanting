@@ -8,6 +8,9 @@ execute as @e[tag=arcane_return] unless score @s owner_2 = @p[tag=arcane_passeng
 execute as @e[tag=arcane_return] unless score @s owner_3 = @p[tag=arcane_passenger_ret] uuid_3 run tag @s remove arcane_stand_ret
 
 tp @p[tag=arcane_passenger_ret,limit=1] @e[tag=arcane_stand_ret,limit=1]
+
+execute as @e[tag=arcane_stand_ret,limit=1] at @s if score @s arcane_query matches 0 run forceload remove ~ ~
+
 kill @e[tag=arcane_stand_ret]
 
 gamemode survival @s[nbt={previousPlayerGameType:0}]

@@ -1,6 +1,6 @@
 {
     "pack": {
-        "pack_format": 1,
-        "description": "Arcane Eye Enchantment. Requires Custom Enchanting Datapack"
+        "pack_format": 6,
+        "description": "Arcane Eye bow enchantment allows players to look see the area around their arrows."
     }
 }
