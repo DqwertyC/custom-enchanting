@@ -1,6 +1,6 @@
 {
     "pack": {
-        "pack_format": 1,
-        "description": "Blaze Touch Enchantment. Requires Custom Enchanting Datapack"
+        "pack_format": 6,
+        "description": "Blaze's Touch pickaxe enchantment auto-smelts ores."
     }
 }

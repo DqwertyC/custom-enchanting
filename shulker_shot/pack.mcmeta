@@ -1,6 +1,6 @@
 {
     "pack": {
-        "pack_format": 1,
-        "description": "shulker_shot Enchantment. Requires Custom Enchanting Datapack"
+        "pack_format": 6,
+        "description": "Shulker Shot bow enchantment causes arrows to fly perfectly straight."
     }
 }

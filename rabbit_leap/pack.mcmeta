@@ -1,6 +1,6 @@
 {
     "pack": {
-        "pack_format": 1,
-        "description": "Rabbit Leap Enchantments. Requires Custom Enchanting Datapack"
+        "pack_format": 6,
+        "description": "Rabbit's Leap leggings enchantment increases jump height after crouching."
     }
 }

@@ -10,6 +10,9 @@ scoreboard players operation @e[tag=arcane_stand_new,limit=1] owner_3 = @p[tag=a
 execute as @e[tag=arcane_stand_new,limit=1] at @p[tag=arcane_passenger_new] rotated as @p[tag=arcane_passenger_new] run tp @s ~ ~ ~ ~ ~
 execute as @p[tag=arcane_passenger_new] run gamemode spectator @s
 
+execute as @e[tag=arcane_stand_new,limit=1] at @s store result score @s arcane_query run forceload query ~ ~
+execute as @e[tag=arcane_stand_new,limit=1] at @s if score @s arcane_query matches 0 run forceload add ~ ~
+
 tag @p[tag=arcane_passenger_new] add arcane_passenger
 tag @p[tag=arcane_passenger_new] remove arcane_passenger_new
 

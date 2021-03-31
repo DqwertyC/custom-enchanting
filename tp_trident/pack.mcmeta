@@ -1,6 +1,6 @@
 {
     "pack": {
-        "pack_format": 1,
-        "description": "Telportation Trident Enchantment. Requires Custom Enchanting Datapack"
+        "pack_format": 6,
+        "description": "Teleport trident enchantment teleports the player to their trident when it lands."
     }
 }
