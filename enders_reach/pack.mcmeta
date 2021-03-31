@@ -1,6 +1,6 @@
 {
     "pack": {
-        "pack_format": 1,
-        "description": "Enders Reach Enchantment. Requires Custom Enchanting Datapack"
+        "pack_format": 6,
+        "description": "Enders Reach chestplate enchantment allows for mid-air block placement."
     }
 }
