@@ -2,7 +2,8 @@
   "type": "minecraft:block",
   "pools": [
     {
-      "rolls": 1,
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:alternatives",
@@ -12,22 +13,53 @@
               "conditions": [
                 {
                   "condition": "minecraft:match_tool",
-                  "predicate": 
-                  {
-                    "nbt": "{BlazeTouch:1b}"
+                  "predicate": {
+                    "enchantments": [
+                      {
+                        "enchantment": "minecraft:silk_touch",
+                        "levels": {
+                          "min": 1
+                        }
+                      }
+                    ]
                   }
                 }
               ],
-              "name": "minecraft:iron_ingot"
+              "name": "minecraft:iron_ore"
             },
             {
               "type": "minecraft:item",
-              "name": "minecraft:iron_ore",
-              "conditions": [
+                "conditions": [
+                  {
+                    "condition": "minecraft:match_tool",
+                    "predicate": 
+                    {
+                      "nbt": "{BlazesTouch:1b}"
+                    }
+                  }
+                ],
+                "functions": [
+                  {
+                    "function": "minecraft:apply_bonus",
+                    "enchantment": "minecraft:fortune",
+                    "formula": "minecraft:ore_drops"
+                  }
+                ],
+                "name": "minecraft:iron_ingot"
+            },
+            {
+              "type": "minecraft:item",
+              "functions": [
                 {
-                  "condition": "minecraft:survives_explosion"
+                  "function": "minecraft:apply_bonus",
+                  "enchantment": "minecraft:fortune",
+                  "formula": "minecraft:ore_drops"
+                },
+                {
+                  "function": "minecraft:explosion_decay"
                 }
-              ]
+              ],
+              "name": "minecraft:raw_iron"
             }
           ]
         }

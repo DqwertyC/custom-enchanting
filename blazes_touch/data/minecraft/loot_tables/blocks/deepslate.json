@@ -24,7 +24,7 @@
                   }
                 }
               ],
-              "name": "minecraft:stone"
+              "name": "minecraft:deepslate"
             },
             {
               "type": "minecraft:item",
@@ -32,11 +32,11 @@
                 {
                   "condition": "minecraft:match_tool",
                   "predicate": {
-                    "nbt": "{tag:{BlazeTouch:1b}}"
+                    "nbt": "{BlazesTouch:1b}"
                   }
                 }
               ],
-              "name": "minecraft:stone"
+              "name": "minecraft:deepslate"
             },
             {
               "type": "minecraft:item",
@@ -45,7 +45,7 @@
                   "condition": "minecraft:survives_explosion"
                 }
               ],
-              "name": "minecraft:cobblestone"
+              "name": "minecraft:cobbled_deepslate"
             }
           ]
         }

@@ -16,11 +16,11 @@ execute if entity @e[type=item_frame,tag=enchanting_slot,nbt={Facing:3b,Item:{id
 execute if entity @e[type=item_frame,tag=enchanting_slot,nbt={Facing:4b,Item:{id:"minecraft:lava_bucket"}},sort=nearest,limit=1] run scoreboard players add @s item_2 1
 execute if entity @e[type=item_frame,tag=enchanting_slot,nbt={Facing:5b,Item:{id:"minecraft:lava_bucket"}},sort=nearest,limit=1] run scoreboard players add @s item_2 1
 
-# Count Blast Furnaces
-execute if entity @e[type=item_frame,tag=enchanting_slot,nbt={Facing:2b,Item:{id:"minecraft:blast_furnace"}},sort=nearest,limit=1] run scoreboard players add @s item_3 1
-execute if entity @e[type=item_frame,tag=enchanting_slot,nbt={Facing:3b,Item:{id:"minecraft:blast_furnace"}},sort=nearest,limit=1] run scoreboard players add @s item_3 1
-execute if entity @e[type=item_frame,tag=enchanting_slot,nbt={Facing:4b,Item:{id:"minecraft:blast_furnace"}},sort=nearest,limit=1] run scoreboard players add @s item_3 1
-execute if entity @e[type=item_frame,tag=enchanting_slot,nbt={Facing:5b,Item:{id:"minecraft:blast_furnace"}},sort=nearest,limit=1] run scoreboard players add @s item_3 1
+# Count Furnaces
+execute if entity @e[type=item_frame,tag=enchanting_slot,nbt={Facing:2b,Item:{id:"minecraft:furnace"}},sort=nearest,limit=1] run scoreboard players add @s item_3 1
+execute if entity @e[type=item_frame,tag=enchanting_slot,nbt={Facing:3b,Item:{id:"minecraft:furnace"}},sort=nearest,limit=1] run scoreboard players add @s item_3 1
+execute if entity @e[type=item_frame,tag=enchanting_slot,nbt={Facing:4b,Item:{id:"minecraft:furnace"}},sort=nearest,limit=1] run scoreboard players add @s item_3 1
+execute if entity @e[type=item_frame,tag=enchanting_slot,nbt={Facing:5b,Item:{id:"minecraft:furnace"}},sort=nearest,limit=1] run scoreboard players add @s item_3 1
 
 #execute if entity @e[type=item_frame,tag=enchanting_slot,nbt={Facing:2b,Item:{id:"minecraft:ender_eye"}},sort=nearest,limit=1] run scoreboard players add @s item_4 1
 #execute if entity @e[type=item_frame,tag=enchanting_slot,nbt={Facing:3b,Item:{id:"minecraft:ender_eye"}},sort=nearest,limit=1] run scoreboard players add @s item_4 1

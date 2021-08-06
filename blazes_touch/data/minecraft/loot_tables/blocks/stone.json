@@ -32,7 +32,7 @@
                 {
                   "condition": "minecraft:match_tool",
                   "predicate": {
-                    "nbt": "{BlazeTouch:1b}"
+                    "nbt": "{BlazesTouch:1b}"
                   }
                 }
               ],
